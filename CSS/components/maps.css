@@ -1,0 +1,7 @@
+.maps-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 5fr);
+    padding: 20px;
+    margin: 0px;
+    object-fit: contain;
+}
