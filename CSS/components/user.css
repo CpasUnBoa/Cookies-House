@@ -1,0 +1,47 @@
+/*user*/
+
+.user {
+    background: #FEECC8;
+    width: 100%;
+    padding: 40px;
+    color: rgba(0,0,0,0.3);
+}
+
+.user h2{
+text-align: center;
+padding: 20px;
+}
+
+.personnage {
+width: 100%; 
+height: 100%; 
+background: white;
+box-shadow: 0px 3.3600001335144043px 20.160001754760742px rgba(139, 167, 178, 0.16); 
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 2rem;
+border-radius: 6px;
+padding: 20px;
+box-shadow: 5px;
+}
+
+.personnage img:first-of-type {
+    border-radius: 9999px;
+    width: 84px;
+    height: 84px;
+    object-fit: cover;
+}
+
+.personnage img:last-of-type {
+width: 145.95px
+}
+
+.personnage-liste  {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px
+}
+.personnage p {
+text-align: center;
+}
