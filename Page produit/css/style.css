@@ -1,0 +1,15 @@
+@import url(component/colonne.css);
+@import url(component/description.css);
+@import url(component/navbar.css);
+@import url(component/font.css);
+@import url(component/footer.css);
+@import url(component/bouton.css);  
+@import url(component/typeforme.css);
+
+
+  .container {
+    max-width: 1200px;
+    margin : auto;
+    padding: 15px;
+    display: flex;
+  }
